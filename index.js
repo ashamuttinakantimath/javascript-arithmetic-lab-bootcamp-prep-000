@@ -1,8 +1,6 @@
-parseInt('3.9999',5)
-log;
-var log = function() {
-greeting = 'Hello!';
+
+function log() {
   console.log(greeting);
-
-
+  var greeting = 'Hello!';
 }
+log();
